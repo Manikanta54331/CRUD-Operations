@@ -1,5 +1,5 @@
 const sequelize = require("../config/database");
-const User = require("./User");
+const User = require("./Schema");
 
 const syncDatabase = async () => {
   try {
